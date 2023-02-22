@@ -3,7 +3,7 @@ package ch05;
 // !!!! 하나의 파일에 여러 개 클래스를 사용할 때는 public이 1개만 있어야 된다. !!!!
 
 class Cal {
-	int x, y; // 전역변수 (멤버변수) : 여러 곳에서 사용 가능
+	int x, y; // 전역변수/멤버변수/인스턴스변수: 여러 곳에서 사용 가능
 	public void prn() {
 		String title = "연산 결과"; // 지역변수, prn이라는 메서드 안에서만 사용 가능
 		System.out.println(title);
