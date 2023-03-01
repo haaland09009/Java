@@ -10,7 +10,7 @@ class E1 {
 		e.b1();
 	}
 }
-class E2 implements E { // 처음에 적을때 빨간줄이 생김.-> 인터페이스 구현을을 하는데 아직 재정의를 안해서 그렇다.
+class E2 implements E { // 처음에 적을때 빨간줄이 생김.-> 인터페이스 구현을 하는데 아직 재정의를 안해서 그렇다.
 	@Override
 	public void b1() {
 		System.out.println("대박");
