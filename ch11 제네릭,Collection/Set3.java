@@ -9,7 +9,7 @@ public class Set3 {
 		HashSet<String> hs2 = new HashSet<>();
 		for(String snake : snakes) {
 			if (!hs1.add(snake)) // hs1에 snake 데이터를 입력하고 에러가 발생하면
-				hs2.add(snake); // 입려안된 것만 hs2에 입력한다
+				hs2.add(snake); // 입력안된 것만 hs2에 입력한다
 		}
 //		완료한 후에 출력
 		System.out.println(hs1);
