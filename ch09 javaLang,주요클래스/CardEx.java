@@ -18,7 +18,7 @@ class Card{
 	}
 	public boolean equals(Card obj) {
 //		return number == ((Card)obj).number;  //기본형은 == 쓰기
-		return kind.equals(obj.kind);
+		return kind.equals(((Card)obj).kind);
 	}
 	public String toString() {
 		return "카드[종류:" + kind + ", 번호: " + number + "]";
