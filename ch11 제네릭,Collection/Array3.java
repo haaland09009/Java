@@ -13,7 +13,7 @@ public class Array3 {
 	    snakes.set(4, "도마뱀"); // index 4번째 값을 변경
 	    prn(snakes);
 	    
-	    snakes.remove(2); // 해당하는 인덱스를 지우면 뒤는 하니씩 앞으로 당겨진다. 
+	    snakes.remove(2); // 해당하는 인덱스를 지우면 뒤는 하나씩 앞으로 당겨진다. 
 	    prn(snakes);
 	    
 	    snakes.remove("구렁이"); // 처음 발견된 "구렁이"를 지우고 인덱스가 하나씩 당겨진다. 나머지 "구렁이"는 안지워짐
